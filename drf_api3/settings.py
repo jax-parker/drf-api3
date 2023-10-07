@@ -52,6 +52,7 @@ INSTALLED_APPS = [
     'rest_framework',
 
     'profiles',
+    'posts',
 ]
 
 MIDDLEWARE = [
@@ -83,7 +84,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'drf_api3.wsgi.application'
-
+GOOGLE_MAPS_API_KEY = 'AIzaSyATM8Zb9BeaFaKAZ59yn4tv7w6wFatnO6Y'
 
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
